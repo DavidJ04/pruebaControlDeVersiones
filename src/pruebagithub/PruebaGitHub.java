@@ -27,7 +27,7 @@ public class PruebaGitHub {
 
     static Boolean esPalindroma(String cadena) {
         Console.WriteLine("Función llamada con => " + cadena);
-        if (cadena.Length < 2) {
+        if (cadena.Length < 2 ) {
             return true;
         }
         Console.WriteLine("Vamos a comparar => " + cadena[0]);
